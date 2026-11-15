@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Starlight Salvage — a salvage-run arcade game</title>
+  <meta name="description" content="Pilot the skiff Kestrel through a debris field: bank the scrap, dodge the rocks, outgun the rogue drones, and spend your credits at the dock.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="stage">
+    <canvas id="game" width="1280" height="800" aria-label="Starlight Salvage game canvas"></canvas>
+    <p class="hint">
+      Starlight Salvage — fly with <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> or the arrow keys,
+      aim with the mouse, hold click or <kbd>Space</kbd> to fire.
+      Collect the wave quota of scrap to open the dock. <kbd>P</kbd> pauses, <kbd>M</kbd> mutes.
+    </p>
+    <noscript><p class="hint">Starlight Salvage needs JavaScript to play.</p></noscript>
+  </main>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
